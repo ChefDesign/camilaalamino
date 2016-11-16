@@ -1,0 +1,113 @@
+.redesocial {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #363636;
+    .content {
+      background-color: #363636;
+      position: relative;
+      margin: 0 auto;
+
+
+      p{
+        // position: relative;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: #FA8072;
+        font-size: 20px;
+        top: 0;
+        text-align: center;
+        animation: animacaoTexto ease 40s infinite alternate;
+      }
+
+      .fino{
+        width: 250px;
+        height: 1px;
+        border: 0px;
+        background-color: #FFF;
+        margin: 0 auto;
+
+
+      }
+
+
+      h1{
+        position: relative;
+        display: block;
+        font-size: 18px;
+        padding-top: 20px;
+        text-align: center;
+        animation: animacaoTexto ease 40s infinite alternate;
+
+      }
+
+      .imagem {
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+
+      }
+
+      a{
+        display: block;
+        text-decoration: none;
+        color: #FFF;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+      }
+
+      .social {
+        margin: 0 auto;
+        margin-top: 20px;
+
+        width: 220px;
+        .icones {
+            display: inline-block;
+            width: 50px;
+
+        }
+
+        img{
+          width: 33px;
+          height: 33px;
+        }
+
+      }
+
+      .email {
+          width: 180px;
+      }
+
+
+
+    }
+}
+
+@keyframes animacaoTexto {
+0%   {
+color: rgb(87, 183, 239);
+
+}
+30%  { color: rgb(77, 148, 196);}
+60%  { color: rgb(115, 113, 166); }
+75%  { color: rgb(240, 171, 149); }
+100% {
+color: rgb(87, 183, 239);
+
+}
+}
+
+@media(min-width: 600px) {
+
+  .redesocial {
+    .content {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+  }
+}

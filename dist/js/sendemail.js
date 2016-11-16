@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#myBtn").click(function(){var a=$("#email").val();$.validateEmail(a)&&$.ajax({url:"salvar.php",type:"POST",data:{email:a},dataType:"json",complete:function(){$("#myModal").show(),$("#email").val("")}})}),$.validateEmail=function(a){return er=/^[a-zA-Z0-9][a-zA-Z0-9\._-]+@([a-zA-Z0-9\._-])/,!!er.exec(a)}});

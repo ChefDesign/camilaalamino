@@ -1,0 +1,163 @@
+.acredita {
+
+	.um{
+		background-color:#FFF;
+	}
+	.dois {
+		background-color:rgba(246, 246, 246, 1);
+	}
+	.content {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		margin-top: -20px;
+		padding-bottom: 20px;
+		margin-bottom: 10px;
+		border-top: 1px solid #DEDEDE;
+		h1 {
+			font-size: 18px;
+			color: #363636;
+			text-align: center;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 20px;
+
+		}
+
+		h2 {
+			font-size: 16px;
+			color: #363636;
+			text-align: center;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 20px;
+		}
+
+			.perfil{
+				color:#00a4ff;
+			}
+
+				p {
+					color: #4F4F4F;
+					text-align: center;
+					font-size: 14px;
+					margin-left: 10px;
+					margin-right: 10px;
+
+				}
+				img {
+           display: block;
+           margin: 0 auto;
+           width: 220px;
+           height: 220px;
+           right: 175px;
+ 					top: 105px;
+           border-radius: 50%;
+           z-index: -1;
+           margin-bottom: 30px;
+
+
+ 				}
+
+         hr {
+           height: 30px;
+           border-style: solid;
+           border-color: #8c8b8b;
+           border-width: 1px 0 0 0;
+           border-radius: 20px;
+         }
+         hr:before {
+           display: block;
+           content: "";
+           height: 30px;
+           margin-top: -31px;
+           border-style: solid;
+           border-color: #8c8b8b;
+           border-width: 0 0 1px 0;
+           border-radius: 20px;
+         }
+
+
+         a{
+           width: 90%;
+           margin: 0 auto;
+           margin-bottom: 50px;
+           font-weight: 600;
+           display: block;
+           text-decoration: none;
+           text-align: center;
+           padding: 8px 8px;
+           color: #fff;
+           font-size: 0.9rem;
+           background-color: rgb(37,170,225);
+           animation: animacaoBotao ease 40s infinite alternate;
+         }
+			}
+		}
+
+		@keyframes animacaoTexto {
+ 0%   {
+	 color: rgb(87, 183, 239);
+
+ }
+ 30%  { color: rgb(77, 148, 196);}
+ 60%  { color: rgb(115, 113, 166); }
+ 75%  { color: rgb(240, 171, 149); }
+ 100% {
+ color: rgb(87, 183, 239);
+
+ }
+}
+
+@keyframes animacaoBotao {
+ 0%   {
+	 background-color: rgb(87, 183, 239);
+ }
+ 30%  { background-color: rgb(77, 148, 196);}
+ 60%  { background-color: rgb(115, 113, 166); }
+ 75%  { background-color: rgb(240, 171, 149); }
+ 100% {
+	 background-color: rgb(87, 183, 239);
+ }
+}
+
+
+
+@media(min-width: 600px) {
+		.content {
+			max-width: 620px;
+			margin: 0 auto;
+			border-bottom: none;
+			border-top: none;
+
+			h1 {
+				font-size: 30px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 24px;
+
+			}
+
+			a {
+				margin: 0 auto;
+				width: 40%;
+				margin-top: 30px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				font-size: 16px;
+
+			}
+
+				p {
+					color: #4F4F4F;
+					text-align: justify;
+					font-size: 16px;
+					text-align: center;
+					margin-left: 10px;
+					margin-right: 10px;
+					line-height: 1.5;
+				}
+			}
+		}

@@ -1,0 +1,15 @@
+{
+  "short_name": "Camila Arquiteta",
+  "name": "A Arquiteta",
+  "icons": [
+    {
+      "src": "img/compasso.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#FFC925"  
+}
