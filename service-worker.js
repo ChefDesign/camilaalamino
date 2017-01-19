@@ -65,7 +65,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'Versao 667';
+var CACHE_NAME = 'Versao 668';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
