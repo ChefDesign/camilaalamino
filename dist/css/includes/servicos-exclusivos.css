@@ -26,6 +26,9 @@
   font-size: 14px;
   font-weight: 300;
 }
+.servicos-exclusivos .content .destaqueCor {
+  color: #FF8C69;
+}
 .servicos-exclusivos .content a {
   width: 90%;
   margin: 0 auto;
