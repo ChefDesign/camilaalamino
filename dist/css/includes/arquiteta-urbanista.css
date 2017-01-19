@@ -1,1 +1,122 @@
-.arquiteta-urbanista{margin-bottom:-12px}.arquiteta-urbanista .content{width:100%;height:auto;background-color:#443937;overflow:hidden;padding-bottom:20px;margin-bottom:-12px}.arquiteta-urbanista .content h1{color:#fff}.arquiteta-urbanista .content h1,.arquiteta-urbanista .content h2{font-size:18px;line-height:normal;text-align:center;margin-left:8px}.arquiteta-urbanista .content h2{color:#ffc925}.arquiteta-urbanista .content a{clear:both;width:90%;margin:0 auto;margin-top:10px;margin-bottom:10px;font-weight:600;display:block;text-decoration:none;text-align:center;padding:8px;color:#fff;font-size:.9rem;background-color:#25aae1;animation:animacaoBotao ease 40s infinite alternate}.arquiteta-urbanista .content .fino{height:1px;border:0;background-color:#fff}.arquiteta-urbanista .content .medio{height:3px;border:0;background-color:#fff}.arquiteta-urbanista .content .esquerda{width:60%;float:left}.arquiteta-urbanista .content .esquerda p{color:#fff;text-align:justify;font-size:14px;margin-left:10px;margin-right:10px}.arquiteta-urbanista .content .direita{width:40%;margin-left:60%}.arquiteta-urbanista .content .direita .imgcamila{width:100px;height:auto;margin-top:50px;margin-left:10%;border:2px solid #fff}.arquiteta-urbanista .content .direita .imgcompasso{width:130px;height:140px;opacity:.6;margin-top:190px;margin-left:15%}@media (min-width:620px){.arquiteta-urbanista{width:100%;background-color:#443937}.arquiteta-urbanista .content{max-width:960px;margin:0 auto;margin-bottom:-12px}.arquiteta-urbanista .content .fino{height:1px;border:0;background-color:#fff}.arquiteta-urbanista .content .medio{height:3px;border:0;background-color:#fff}.arquiteta-urbanista .content .esquerda{float:left}.arquiteta-urbanista .content .esquerda p{font-size:16px}.arquiteta-urbanista .content .direita{margin-left:50%}.arquiteta-urbanista .content .direita .imgcamila{width:180px;height:auto;border:2px solid #fff}.arquiteta-urbanista .content .direita .imgcompasso{width:120px;height:125px;opacity:.4;margin-top:50px;margin-left:15%}}
+.arquiteta-urbanista {
+  margin-bottom: -12px;
+}
+.arquiteta-urbanista .content {
+  width: 100%;
+  height: auto;
+  background-color: #443937;
+  overflow: hidden;
+  padding-bottom: 20px;
+  margin-bottom: -12px;
+}
+.arquiteta-urbanista .content h1 {
+  font-size: 18px;
+  line-height: normal;
+  color: #FFF;
+  text-align: center;
+  margin-left: 8px;
+}
+.arquiteta-urbanista .content h2 {
+  font-size: 18px;
+  line-height: normal;
+  color: #FFC925;
+  text-align: center;
+  margin-left: 8px;
+}
+.arquiteta-urbanista .content a {
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 8px;
+  color: #fff;
+  font-size: 0.9rem;
+  background-color: #25aae1;
+  animation: animacaoBotao ease 40s infinite alternate;
+}
+.arquiteta-urbanista .content .fino {
+  height: 1px;
+  border: 0px;
+  background-color: #FFF;
+}
+.arquiteta-urbanista .content .medio {
+  height: 3px;
+  border: 0px;
+  background-color: #FFF;
+}
+.arquiteta-urbanista .content .esquerda {
+  width: 60%;
+  float: left;
+}
+.arquiteta-urbanista .content .esquerda p {
+  color: #FFF;
+  text-align: justify;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.arquiteta-urbanista .content .direita {
+  width: 40%;
+  margin-left: 60%;
+}
+.arquiteta-urbanista .content .direita .imgcamila {
+  width: 100px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 10%;
+  border: 2px solid #FFF;
+}
+.arquiteta-urbanista .content .direita .imgcompasso {
+  width: 130px;
+  height: 140px;
+  opacity: 0.6;
+  margin-top: 190px;
+  margin-left: 15%;
+}
+@media (min-width: 620px) {
+  .arquiteta-urbanista {
+    width: 100%;
+    background-color: #443937;
+  }
+  .arquiteta-urbanista .content {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: -12px;
+  }
+  .arquiteta-urbanista .content .fino {
+    height: 1px;
+    border: 0px;
+    background-color: #FFF;
+  }
+  .arquiteta-urbanista .content .medio {
+    height: 3px;
+    border: 0px;
+    background-color: #FFF;
+  }
+  .arquiteta-urbanista .content .esquerda {
+    float: left;
+  }
+  .arquiteta-urbanista .content .esquerda p {
+    font-size: 16px;
+  }
+  .arquiteta-urbanista .content .direita {
+    margin-left: 50%;
+  }
+  .arquiteta-urbanista .content .direita .imgcamila {
+    width: 180px;
+    height: auto;
+    border: 2px solid #fff;
+  }
+  .arquiteta-urbanista .content .direita .imgcompasso {
+    width: 120px;
+    height: 125px;
+    opacity: 0.4;
+    margin-top: 50px;
+    margin-left: 15%;
+  }
+}

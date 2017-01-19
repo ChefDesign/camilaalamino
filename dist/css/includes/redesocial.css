@@ -1,1 +1,89 @@
-.redesocial{width:100%}.redesocial,.redesocial .content{margin:0 auto;background-color:#363636}.redesocial .content{position:relative}.redesocial .content p{margin-left:5%;margin-right:5%;color:salmon;font-size:20px;top:0;text-align:center;animation:animacaoTexto ease 40s infinite alternate}.redesocial .content .fino{width:250px;height:1px;border:0;background-color:#fff;margin:0 auto}.redesocial .content h1{position:relative;display:block;font-size:18px;padding-top:20px;text-align:center;animation:animacaoTexto ease 40s infinite alternate}.redesocial .content .imagem{display:block;width:35px;height:35px;margin:0 auto;margin-bottom:10px}.redesocial .content a{display:block;text-decoration:none;color:#fff;font-size:.8rem;text-align:center;margin:0 auto;margin-bottom:20px}.redesocial .content .social{margin:0 auto;margin-top:20px;width:220px}.redesocial .content .social .icones{display:inline-block;width:50px}.redesocial .content .social img{width:33px;height:33px}.redesocial .content .email{width:180px}@keyframes animacaoTexto{0%{color:#57b7ef}30%{color:#4d94c4}60%{color:#7371a6}75%{color:#f0ab95}to{color:#57b7ef}}@media (min-width:600px){.redesocial .content{max-width:980px;margin:0 auto}}
+.redesocial {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #363636;
+}
+.redesocial .content {
+  background-color: #363636;
+  position: relative;
+  margin: 0 auto;
+}
+.redesocial .content p {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #FA8072;
+  font-size: 20px;
+  top: 0;
+  text-align: center;
+  animation: animacaoTexto ease 40s infinite alternate;
+}
+.redesocial .content .fino {
+  width: 250px;
+  height: 1px;
+  border: 0px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+.redesocial .content h1 {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+  animation: animacaoTexto ease 40s infinite alternate;
+}
+.redesocial .content .imagem {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.redesocial .content a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.redesocial .content .social {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 220px;
+}
+.redesocial .content .social .icones {
+  display: inline-block;
+  width: 50px;
+}
+.redesocial .content .social img {
+  width: 33px;
+  height: 33px;
+}
+.redesocial .content .email {
+  width: 180px;
+}
+@keyframes animacaoTexto {
+  0% {
+    color: #57b7ef;
+  }
+  30% {
+    color: #4d94c4;
+  }
+  60% {
+    color: #7371a6;
+  }
+  75% {
+    color: #f0ab95;
+  }
+  100% {
+    color: #57b7ef;
+  }
+}
+@media (min-width: 600px) {
+  .redesocial .content {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+}
